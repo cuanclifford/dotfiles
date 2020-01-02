@@ -1,4 +1,3 @@
-// vim:ts=4:sw=4:et
 {
     "border": "none",
     "current_border_width": 2,
@@ -13,9 +12,9 @@
     "percent": 0.6,
     "swallows": [
        {
-       // "class": "^Steam$",
-       // "instance": "^Steam$",
-       // "title": "^Steam$"
+       "class": "^Steam$",
+       "instance": "^Steam$",
+       "title": "^Steam$"
        }
     ],
     "type": "con"
@@ -35,11 +34,47 @@
     "percent": 0.4,
     "swallows": [
        {
-       // "class": "^Steam$",
-       // "instance": "^Steam$",
-       // "title": "^Friends\\ List$"
+       "class": "^Steam$",
+       "instance": "^Steam$",
+       "title": "^Friends List$"
        }
     ],
     "type": "con"
 }
 
+// {
+//    "border": "normal",
+//    "floating": "auto_off",
+//    "layout": "splith",
+//    "percent": null,
+//    "rect": {
+//       "height": 107,
+//       "width": 384,
+//       "x": 768,
+//       "y": 469
+//    },
+//    "type": "floating_con",
+//    "nodes": [
+//        {
+//            "border": "none",
+//            "current_border_width": 2,
+//            "floating": "user_on",
+//            "geometry": {
+//               "height": 142,
+//               "width": 384,
+//               "x": 768,
+//               "y": 469
+//            },
+//            "name": "Steam",
+//            "percent": 1,
+//            "swallows": [
+//               {
+//               "class": "^Steam$",
+//               "instance": "^Steam$",
+//               "title": "^Steam$"
+//               }
+//            ],
+//            "type": "con"
+//        }
+//    ]
+// }

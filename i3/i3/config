@@ -167,18 +167,23 @@ for_window [class="^TelegramDesktop$" title="^Media viewer$"] move absolute posi
 # screenshot
 bindsym --release Shift+Print exec --no-startup-id maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym --release Print exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
+
+# screen lock
 bindsym $mod+Escape exec --no-startup-id $HOME/.config/i3lock/lock.sh
+
+# unisearch
+bindsym $mod+u exec --no-startup-id $HOME/.unisearch/unisearch.sh
 
 # assign applications to workspaces
 assign [class="Google-chrome"] 2
 assign [class="Firefox"] 2
 assign [class="TelegramDesktop"] 3
+assign [class="discord"] 3
 assign [class="Steam"] 8
 
 # startup
+exec --no-startup-id "i3-msg 'workspace 1; append_layout $HOME/.config/i3/workspace-1.json'"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id i3-msg "workspace 2; exec /usr/bin/google-chrome-stable"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/telegram-desktop"
-exec_always --no-startup-id i3-msg
-exec_always --no-startup-id compton
