@@ -67,6 +67,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Personal aliases
 alias lock=$HOME/.config/i3lock/lock.sh
+alias music=ncmpcpp
 
 # Add Ruby gems to PATH
 export PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
