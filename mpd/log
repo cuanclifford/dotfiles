@@ -1,0 +1,762 @@
+Dec 29 16:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 16:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 16:03 : client: [0] opened from 127.0.0.1:37646
+Dec 29 16:03 : client: [1] opened from 127.0.0.1:37644
+Dec 29 16:03 : client: [2] opened from 127.0.0.1:37650
+Dec 29 16:03 : client: [2] closed
+Dec 29 16:07 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Dec 29 16:07 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Dec 29 16:07 : player: played "Sommarfågel - Wintergatan.flac"
+Dec 29 16:07 : player: played "Paradis - Wintergatan.flac"
+Dec 29 16:07 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Dec 29 16:07 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Dec 29 16:07 : player: played "Paradis - Wintergatan.flac"
+Dec 29 16:12 : player: played "Västanberg - Wintergatan.flac"
+Dec 29 16:15 : client: [3] opened from 127.0.0.1:37812
+Dec 29 16:15 : client: [3] closed
+Dec 29 18:45 : player: played "Marble Machine - Wintergatan.flac"
+Jan 02 12:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 12:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 12:56 : client: [0] opened from 127.0.0.1:41246
+Jan 02 12:56 : client: [1] opened from 127.0.0.1:41248
+Jan 02 13:02 : client: [2] opened from 127.0.0.1:41558
+Jan 02 13:02 : client: [2] closed
+Jan 02 13:02 : client: [3] opened from 127.0.0.1:41562
+Jan 02 13:02 : client: [3] closed
+Jan 02 13:03 : client: [4] opened from 127.0.0.1:41566
+Jan 02 13:03 : client: [5] opened from 127.0.0.1:41580
+Jan 02 13:03 : client: [5] closed
+Jan 02 13:06 : player: played "The Rocket - Wintergatan.flac"
+Jan 02 13:09 : player: played "All Was Well - Wintergatan.flac"
+Jan 02 13:13 : client: [6] opened from 127.0.0.1:41794
+Jan 02 13:13 : client: [6] closed
+Jan 02 13:13 : client: [7] opened from 127.0.0.1:41802
+Jan 02 13:13 : client: [7] closed
+Jan 02 13:14 : client: [8] opened from 127.0.0.1:41810
+Jan 02 13:14 : client: [8] closed
+Jan 02 13:18 : player: played "Västanberg - Wintergatan.flac"
+Jan 02 13:21 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:21 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:22 : player: played "Hateno Village.flac"
+Jan 02 13:22 : player: played "Paradis - Wintergatan.flac"
+Jan 02 13:22 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:22 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:22 : player: played "Paradis - Wintergatan.flac"
+Jan 02 13:26 : player: played "Marble Machine - Wintergatan.flac"
+Jan 02 13:29 : player: played "All Was Well - Wintergatan.flac"
+Jan 02 13:33 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 02 13:36 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:36 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:36 : player: played "The Rocket - Wintergatan.flac"
+Jan 02 13:36 : player: played "Paradis - Wintergatan.flac"
+Jan 02 13:36 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:36 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:36 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:36 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:36 : player: played "Paradis - Wintergatan.flac"
+Jan 02 13:36 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 13:36 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 13:36 : player: played "Paradis - Wintergatan.flac"
+Jan 02 13:40 : player: played "Tornado - Wintergatan.flac"
+Jan 02 13:43 : player: played "All Was Well - Wintergatan.flac"
+Jan 02 13:47 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 02 13:50 : client: [9] opened from 127.0.0.1:42534
+Jan 02 13:50 : client: [9] closed
+Jan 02 15:09 : client: [10] opened from 127.0.0.1:43996
+Jan 02 15:09 : client: [10] closed
+Jan 02 15:10 : player: played "Västanberg - Wintergatan.flac"
+Jan 02 15:13 : player: played "All Was Well - Wintergatan.flac"
+Jan 02 15:17 : player: played "Tornado - Wintergatan.flac"
+Jan 02 15:20 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 02 15:24 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 02 15:28 : player: played "Valentine - Wintergatan.flac"
+Jan 02 15:32 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 02 15:35 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 02 15:38 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 15:38 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 15:39 : player: played "The Rocket - Wintergatan.flac"
+Jan 02 15:39 : player: played "Paradis - Wintergatan.flac"
+Jan 02 15:39 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 02 15:39 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 02 15:39 : player: played "Paradis - Wintergatan.flac"
+Jan 02 15:43 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 02 15:46 : player: played "Tornado - Wintergatan.flac"
+Jan 02 15:51 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 02 15:53 : player: played "Ocarina Of Time.flac"
+Jan 02 15:58 : player: played "Marble Machine - Wintergatan.flac"
+Jan 02 16:02 : player: played "Marble Machine - Wintergatan.flac"
+Jan 02 16:05 : player: played "Gerudo Valley.flac"
+Jan 02 16:09 : player: played "The Rocket - Wintergatan.flac"
+Jan 02 16:11 : player: played "Ballad Of The Goddess.flac"
+Jan 16 22:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 16 22:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 16 22:24 : client: [0] opened from 127.0.0.1:33344
+Jan 16 22:24 : client: [1] opened from 127.0.0.1:33342
+Jan 16 22:24 : player: played "Ballad Of The Goddess.flac"
+Jan 16 22:28 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 16 22:28 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 16 22:28 : player: played "The Rocket - Wintergatan.flac"
+Jan 16 22:28 : player: played "Paradis - Wintergatan.flac"
+Jan 16 22:32 : client: [0] closed
+Jan 16 22:32 : client: [1] closed
+Jan 16 22:32 : client: [2] opened from 127.0.0.1:33814
+Jan 16 22:32 : client: [3] opened from 127.0.0.1:33816
+Jan 16 22:33 : client: [2] closed
+Jan 16 22:33 : client: [3] closed
+Jan 16 22:33 : client: [4] opened from 127.0.0.1:33846
+Jan 16 22:33 : client: [5] opened from 127.0.0.1:33848
+Jan 16 22:34 : client: [4] closed
+Jan 16 22:34 : client: [5] closed
+Jan 16 22:34 : client: [6] opened from 127.0.0.1:33868
+Jan 16 22:34 : client: [7] opened from 127.0.0.1:33870
+Jan 16 22:34 : client: [8] opened from 127.0.0.1:33874
+Jan 16 22:34 : client: [8] closed
+Jan 16 22:35 : client: [6] closed
+Jan 16 22:35 : client: [7] closed
+Jan 16 22:35 : client: [9] opened from 127.0.0.1:33918
+Jan 16 22:35 : client: [10] opened from 127.0.0.1:33920
+Jan 16 22:37 : client: [9] closed
+Jan 16 22:37 : client: [10] closed
+Jan 16 22:37 : client: [11] opened from 127.0.0.1:33970
+Jan 16 22:37 : client: [12] opened from 127.0.0.1:33972
+Jan 16 22:37 : player: played "The Rocket - Wintergatan.flac"
+Jan 16 22:40 : player: played "Breath Of The Wild.flac"
+Jan 16 22:42 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 16 22:42 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 16 22:43 : player: played "All Was Well - Wintergatan.flac"
+Jan 16 22:43 : player: played "Paradis - Wintergatan.flac"
+Jan 16 22:43 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 16 22:43 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 16 22:43 : player: played "Paradis - Wintergatan.flac"
+Jan 16 22:44 : client: [13] opened from 127.0.0.1:34076
+Jan 16 22:44 : client: [13] closed
+Jan 16 22:45 : player: played "Tornado - Wintergatan.flac"
+Jan 17 18:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 17 18:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 17 18:39 : client: [0] opened from 127.0.0.1:49972
+Jan 17 18:39 : client: [1] opened from 127.0.0.1:49974
+Jan 17 18:39 : client: [2] opened from 127.0.0.1:49976
+Jan 17 18:39 : client: [2] closed
+Jan 17 18:41 : player: played "Tornado - Wintergatan.flac"
+Jan 17 18:44 : client: [3] opened from 127.0.0.1:50186
+Jan 17 18:45 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 17 18:48 : player: played "Ocarina Of Time.flac"
+Jan 17 18:48 : client: [4] opened from 127.0.0.1:50260
+Jan 17 18:48 : client: [4] closed
+Jan 17 18:48 : client: [5] opened from 127.0.0.1:50262
+Jan 17 18:48 : client: [5] closed
+Jan 17 18:48 : client: [6] opened from 127.0.0.1:50266
+Jan 17 18:48 : client: [6] closed
+Jan 17 18:48 : client: [7] opened from 127.0.0.1:50268
+Jan 17 18:48 : client: [7] closed
+Jan 17 19:02 : client: [8] opened from 127.0.0.1:50476
+Jan 17 19:02 : client: [8] closed
+Jan 17 19:06 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 17 19:10 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 17 19:13 : player: played "Tornado - Wintergatan.flac"
+Jan 17 19:18 : player: played "Marble Machine - Wintergatan.flac"
+Jan 17 19:21 : player: played "The Rocket - Wintergatan.flac"
+Jan 17 19:25 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 17 19:29 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 17 19:32 : client: [9] opened from 127.0.0.1:51534
+Jan 17 19:32 : client: [9] closed
+Jan 17 20:06 : client: [10] opened from 127.0.0.1:52236
+Jan 17 20:06 : client: [10] closed
+Jan 17 20:06 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 17 20:06 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 17 20:07 : player: played "Valentine - Wintergatan.flac"
+Jan 17 20:07 : player: played "Paradis - Wintergatan.flac"
+Jan 17 20:07 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 17 20:07 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 17 20:07 : player: played "Paradis - Wintergatan.flac"
+Jan 17 20:10 : player: played "All Was Well - Wintergatan.flac"
+Jan 17 20:14 : player: played "Västanberg - Wintergatan.flac"
+Jan 17 20:19 : player: played "Västanberg - Wintergatan.flac"
+Jan 17 20:21 : client: [11] opened from 127.0.0.1:52542
+Jan 17 20:21 : client: [11] closed
+Jan 17 23:17 : player: played "Marble Machine - Wintergatan.flac"
+Jan 18 09:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 18 09:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 18 09:02 : client: [0] opened from 127.0.0.1:46292
+Jan 18 09:02 : client: [1] opened from 127.0.0.1:46294
+Jan 18 11:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 18 11:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 18 11:16 : client: [0] opened from 127.0.0.1:51522
+Jan 18 11:16 : client: [1] opened from 127.0.0.1:51524
+Jan 18 12:19 : client: [2] opened from 127.0.0.1:35418
+Jan 18 12:19 : client: [2] closed
+Jan 18 12:19 : client: [3] opened from 127.0.0.1:35428
+Jan 18 12:19 : client: [3] closed
+Jan 18 12:20 : client: [4] opened from 127.0.0.1:35554
+Jan 18 12:23 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 18 12:26 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 18 12:30 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 18 12:34 : player: played "Tornado - Wintergatan.flac"
+Jan 18 12:37 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 12:37 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 12:37 : player: played "The Rocket - Wintergatan.flac"
+Jan 18 12:37 : player: played "Paradis - Wintergatan.flac"
+Jan 18 12:37 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 12:37 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 12:37 : player: played "Paradis - Wintergatan.flac"
+Jan 18 12:41 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 18 12:44 : player: played "All Was Well - Wintergatan.flac"
+Jan 18 12:48 : player: played "Valentine - Wintergatan.flac"
+Jan 18 12:51 : client: [5] opened from 127.0.0.1:50870
+Jan 18 12:51 : client: [5] closed
+Jan 18 14:51 : client: [4] closed
+Jan 18 14:52 : client: [6] opened from 127.0.0.1:52870
+Jan 18 14:52 : client: [6] closed
+Jan 18 14:54 : player: played "Västanberg - Wintergatan.flac"
+Jan 18 14:59 : player: played "Marble Machine - Wintergatan.flac"
+Jan 18 15:02 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 18 15:05 : player: played "All Was Well - Wintergatan.flac"
+Jan 18 15:09 : player: played "Valentine - Wintergatan.flac"
+Jan 18 15:13 : player: played "Tornado - Wintergatan.flac"
+Jan 18 15:16 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 18 15:20 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 18 15:24 : player: played "The Rocket - Wintergatan.flac"
+Jan 18 15:28 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 18 15:32 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 15:32 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 15:32 : player: played "Västanberg - Wintergatan.flac"
+Jan 18 15:32 : player: played "Paradis - Wintergatan.flac"
+Jan 18 15:32 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 15:32 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 15:32 : player: played "Paradis - Wintergatan.flac"
+Jan 18 15:35 : player: played "Biking Is Better - Wintergatan.flac"
+Jan 18 15:35 : client: [7] opened from 127.0.0.1:53232
+Jan 18 15:35 : client: [7] closed
+Jan 18 15:39 : player: played "Valentine - Wintergatan.flac"
+Jan 18 15:43 : player: played "Sommarfågel - Wintergatan.flac"
+Jan 18 15:46 : player: played "All Was Well - Wintergatan.flac"
+Jan 18 15:51 : player: played "Västanberg - Wintergatan.flac"
+Jan 18 15:54 : player: played "Slottskogen Disk Golf Club - Wintergatan.flac"
+Jan 18 15:58 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 15:58 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 15:58 : player: played "The Rocket - Wintergatan.flac"
+Jan 18 15:58 : player: played "Paradis - Wintergatan.flac"
+Jan 18 15:58 : exception: Failed to decode /home/q/Music/Paradis - Wintergatan.flac
+Jan 18 15:58 : exception: nested: Failed to open '/home/q/Music/Paradis - Wintergatan.flac': No such file or directory
+Jan 18 15:58 : player: played "Paradis - Wintergatan.flac"
+Jan 18 16:02 : player: played "Tornado - Wintergatan.flac"
+Jan 18 16:06 : player: played "Starmachine2000 - Wintergatan.flac"
+Jan 18 16:10 : player: played "Valentine - Wintergatan.flac"
+Jan 18 16:13 : player: played "All Was Well - Wintergatan.flac"
+Jan 18 16:14 : client: [8] opened from 127.0.0.1:53418
+Jan 18 16:16 : player: played "Fairy Fountain.flac"
+Jan 18 16:21 : player: played "Marble Machine - Wintergatan.flac"
+Jan 18 16:23 : client: [9] opened from 127.0.0.1:53462
+Jan 18 16:23 : client: [9] closed
+Jan 18 16:37 : player: played "The Rocket - Wintergatan.flac"
+Jan 18 16:37 : client: [10] opened from 127.0.0.1:53508
+Jan 18 16:37 : client: [10] closed
+Jan 18 16:37 : client: [11] opened from 127.0.0.1:53510
+Jan 18 16:37 : client: [11] closed
+Jan 18 16:37 : client: [12] opened from 127.0.0.1:53512
+Jan 18 16:37 : client: [12] closed
+Jan 18 16:40 : player: played "Minuet Of Forest.flac"
+Jan 18 16:42 : player: played "Breath Of The Wild.flac"
+Jan 18 16:46 : player: played "Hateno Village.flac"
+Jan 18 16:49 : player: played "Ocarina Of Time.flac"
+Jan 18 16:51 : player: played "Ballad Of The Goddess.flac"
+Jan 18 16:54 : player: played "Dragon Roost Island.flac"
+Jan 18 16:57 : player: played "Oath To Order.flac"
+Jan 18 17:00 : player: played "Gerudo Valley.flac"
+Jan 18 17:03 : player: played "Kakariko Village.flac"
+Jan 18 17:05 : player: played "Lost Woods.flac"
+Jan 18 17:09 : player: played "Legend Of Zelda.flac"
+Jan 18 17:11 : player: played "Dark World.flac"
+Jan 18 17:15 : player: played "Song Of Storms.flac"
+Jan 18 17:18 : player: played "Kakariko Village.flac"
+Jan 18 17:20 : player: played "Dark World.flac"
+Jan 18 17:23 : player: played "Lost Woods.flac"
+Jan 18 17:26 : player: played "Gerudo Valley.flac"
+Jan 18 17:29 : player: played "Ballad Of The Goddess.flac"
+Jan 18 17:32 : player: played "Oath To Order.flac"
+Jan 18 17:35 : player: played "Hateno Village.flac"
+Jan 18 17:38 : player: played "Minuet Of Forest.flac"
+Jan 18 17:41 : player: played "Fairy Fountain.flac"
+Jan 18 17:43 : player: played "Ocarina Of Time.flac"
+Jan 18 17:46 : player: played "Breath Of The Wild.flac"
+Jan 18 17:49 : player: played "Legend Of Zelda.flac"
+Jan 18 17:52 : player: played "Song Of Storms.flac"
+Jan 18 17:55 : player: played "Dragon Roost Island.flac"
+Jan 18 17:59 : player: played "Hateno Village.flac"
+Jan 18 18:02 : player: played "Dark World.flac"
+Jan 18 18:04 : player: played "Kakariko Village.flac"
+Jan 18 18:07 : player: played "Legend Of Zelda.flac"
+Jan 18 18:10 : player: played "Oath To Order.flac"
+Jan 18 18:13 : player: played "Ocarina Of Time.flac"
+Jan 18 18:15 : player: played "Breath Of The Wild.flac"
+Jan 18 18:18 : client: [13] opened from 127.0.0.1:54642
+Jan 18 18:18 : client: [13] closed
+Jan 18 19:55 : client: [8] closed
+Jan 18 19:55 : client: [1] closed
+Jan 18 19:55 : client: [0] closed
+Jan 18 19:55 : player: played "Lost Woods.flac"
+Jan 25 09:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 09:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 09:25 : client: [0] opened from 127.0.0.1:57096
+Jan 25 09:25 : client: [1] opened from 127.0.0.1:57098
+Jan 25 10:30 : client: [2] opened from 127.0.0.1:58122
+Jan 25 10:30 : client: [2] closed
+Jan 25 10:30 : client: [3] opened from 127.0.0.1:58126
+Jan 25 10:30 : player: played "Lost Woods.flac"
+Jan 25 10:31 : client: [4] opened from 127.0.0.1:58232
+Jan 25 10:31 : client: [4] closed
+Jan 25 10:45 : client: [3] closed
+Jan 25 10:45 : client: [0] closed
+Jan 25 10:45 : client: [1] closed
+Jan 25 10:45 : player: played "Minuet Of Forest.flac"
+Jan 25 10:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 10:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 10:55 : client: [0] opened from 127.0.0.1:57892
+Jan 25 10:55 : client: [1] opened from 127.0.0.1:57894
+Jan 25 10:59 : client: [2] opened from 127.0.0.1:58078
+Jan 25 10:59 : client: [3] opened from 127.0.0.1:58080
+Jan 25 10:59 : client: [3] closed
+Jan 25 10:59 : client: [4] opened from 127.0.0.1:58082
+Jan 25 10:59 : client: [4] closed
+Jan 25 10:59 : client: [5] opened from 127.0.0.1:58084
+Jan 25 10:59 : client: [5] closed
+Jan 25 10:59 : client: [6] opened from 127.0.0.1:58086
+Jan 25 10:59 : client: [6] closed
+Jan 25 10:59 : client: [7] opened from 127.0.0.1:58088
+Jan 25 10:59 : client: [7] closed
+Jan 25 10:59 : client: [8] opened from 127.0.0.1:58090
+Jan 25 10:59 : client: [8] closed
+Jan 25 10:59 : client: [9] opened from 127.0.0.1:58092
+Jan 25 10:59 : client: [9] closed
+Jan 25 10:59 : client: [10] opened from 127.0.0.1:58094
+Jan 25 10:59 : client: [10] closed
+Jan 25 10:59 : client: [11] opened from 127.0.0.1:58096
+Jan 25 10:59 : client: [11] closed
+Jan 25 11:02 : player: played "Fairy Fountain.flac"
+Jan 25 11:04 : client: [12] opened from 127.0.0.1:58180
+Jan 25 11:04 : client: [12] closed
+Jan 25 14:01 : player: played "Dragon Roost Island.flac"
+Jan 25 14:03 : client: [13] opened from 127.0.0.1:59120
+Jan 25 14:03 : client: [13] closed
+Jan 25 14:04 : client: [14] opened from 127.0.0.1:59178
+Jan 25 14:04 : client: [14] closed
+Jan 25 14:05 : client: [15] opened from 127.0.0.1:59192
+Jan 25 14:05 : client: [15] closed
+Jan 25 16:17 : client: [16] opened from 127.0.0.1:45354
+Jan 25 16:17 : client: [16] closed
+Jan 25 16:17 : client: [17] opened from 127.0.0.1:45358
+Jan 25 16:17 : client: [17] closed
+Jan 25 16:17 : client: [18] opened from 127.0.0.1:45360
+Jan 25 16:17 : client: [18] closed
+Jan 25 16:18 : client: [19] opened from 127.0.0.1:45362
+Jan 25 16:18 : client: [19] closed
+Jan 25 16:18 : client: [20] opened from 127.0.0.1:45364
+Jan 25 16:18 : client: [20] closed
+Jan 25 16:18 : client: [21] opened from 127.0.0.1:45366
+Jan 25 16:18 : client: [21] closed
+Jan 25 16:21 : client: [22] opened from 127.0.0.1:45434
+Jan 25 16:21 : client: [22] closed
+Jan 25 16:26 : player: played "Västanberg - Wintergatan.flac"
+Jan 25 16:27 : client: [23] opened from 127.0.0.1:45510
+Jan 25 16:27 : client: [23] closed
+Jan 25 16:28 : client: [24] opened from 127.0.0.1:45524
+Jan 25 16:28 : client: [24] closed
+Jan 25 16:28 : client: [25] opened from 127.0.0.1:45528
+Jan 25 16:28 : client: [25] closed
+Jan 25 21:58 : client: [26] opened from 127.0.0.1:49416
+Jan 25 21:58 : client: [26] closed
+Jan 25 21:59 : player: played "Marble Machine - Wintergatan.flac"
+Jan 25 21:59 : client: [27] opened from 127.0.0.1:49434
+Jan 25 21:59 : client: [27] closed
+Jan 25 22:56 : client: [28] opened from 127.0.0.1:50178
+Jan 25 22:56 : client: [28] closed
+Jan 25 22:56 : client: [29] opened from 127.0.0.1:50186
+Jan 25 22:56 : client: [29] closed
+Jan 25 22:56 : client: [30] opened from 127.0.0.1:50188
+Jan 25 22:56 : client: [30] closed
+Jan 25 22:56 : client: [31] opened from 127.0.0.1:50194
+Jan 25 22:56 : client: [31] closed
+Jan 25 23:00 : client: [32] opened from 127.0.0.1:50218
+Jan 25 23:00 : client: [32] closed
+Jan 26 01:13 : client: [2] closed
+Jan 26 01:13 : client: [1] closed
+Jan 26 01:13 : client: [0] closed
+Jan 26 01:13 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 26 10:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 10:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 26 10:47 : client: [0] opened from 127.0.0.1:47518
+Jan 26 10:47 : client: [1] opened from 127.0.0.1:47520
+Jan 26 10:53 : client: [2] opened from 127.0.0.1:47524
+Jan 26 10:59 : client: [3] opened from 127.0.0.1:47802
+Jan 26 10:59 : client: [3] closed
+Jan 26 10:59 : client: [4] opened from 127.0.0.1:47808
+Jan 26 10:59 : client: [4] closed
+Jan 26 10:59 : client: [5] opened from 127.0.0.1:47810
+Jan 26 10:59 : client: [5] closed
+Jan 26 11:00 : client: [6] opened from 127.0.0.1:47812
+Jan 26 11:00 : client: [6] closed
+Jan 26 16:27 : client: [7] opened from 127.0.0.1:50414
+Jan 26 16:27 : client: [7] closed
+Jan 26 16:30 : player: played "Violet Melody.flac"
+Jan 26 16:32 : client: [8] opened from 127.0.0.1:50536
+Jan 26 16:32 : client: [8] closed
+Jan 26 17:44 : client: [9] opened from 127.0.0.1:52438
+Jan 26 17:44 : client: [9] closed
+Jan 26 17:44 : client: [10] opened from 127.0.0.1:52440
+Jan 26 17:44 : client: [10] closed
+Jan 26 17:44 : client: [11] opened from 127.0.0.1:52442
+Jan 26 17:44 : client: [11] closed
+Jan 26 17:44 : client: [12] opened from 127.0.0.1:52444
+Jan 26 17:44 : client: [12] closed
+Jan 26 17:49 : client: [13] opened from 127.0.0.1:55376
+Jan 26 17:49 : client: [13] closed
+Jan 26 20:44 : client: [14] opened from 127.0.0.1:56180
+Jan 26 20:44 : client: [14] closed
+Jan 26 20:44 : client: [15] opened from 127.0.0.1:56198
+Jan 26 20:44 : client: [15] closed
+Jan 26 20:44 : client: [16] opened from 127.0.0.1:56208
+Jan 26 20:44 : client: [16] closed
+Jan 26 20:44 : client: [17] opened from 127.0.0.1:56220
+Jan 26 20:44 : client: [17] closed
+Jan 26 20:50 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 26 20:53 : player: played "Violet Melody.flac"
+Jan 26 20:58 : player: played "Interstellar Main Theme.flac"
+Jan 26 21:04 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 26 21:08 : player: played "Interstellar Main Theme.flac"
+Jan 26 21:12 : player: played "How To Train Your Dragon (Piano).flac"
+Jan 26 21:15 : player: played "Violet Melody.flac"
+Jan 26 21:15 : client: [2] closed
+Jan 26 21:15 : client: [1] closed
+Jan 26 21:15 : client: [0] closed
+Jan 26 21:15 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 26 21:15 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 27 17:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 27 17:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 27 17:39 : client: [0] opened from 127.0.0.1:33872
+Jan 27 17:39 : client: [1] opened from 127.0.0.1:33874
+Jan 27 17:44 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 27 17:49 : player: played "Interstellar Main Theme.flac"
+Jan 27 17:52 : player: played "Violet Melody.flac"
+Jan 27 17:56 : player: played "How To Train Your Dragon (Piano).flac"
+Jan 27 18:01 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 27 18:05 : player: played "Violet Melody.flac"
+Jan 27 18:08 : player: played "How To Train Your Dragon (Piano).flac"
+Jan 27 18:09 : client: [2] opened from 127.0.0.1:34214
+Jan 27 18:09 : client: [2] closed
+Jan 27 18:28 : client: [3] opened from 127.0.0.1:35150
+Jan 27 23:53 : client: [3] closed
+Jan 27 23:54 : client: [1] closed
+Jan 27 23:54 : client: [0] closed
+Jan 27 23:54 : player: played "Interstellar Main Theme.flac"
+Jan 28 18:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 28 18:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 28 18:32 : client: [0] opened from 127.0.0.1:41254
+Jan 28 18:32 : client: [1] opened from 127.0.0.1:41256
+Jan 28 18:46 : client: [2] opened from 127.0.0.1:41614
+Jan 28 18:47 : client: [3] opened from 127.0.0.1:41670
+Jan 28 18:47 : client: [3] closed
+Jan 28 20:27 : client: [4] opened from 127.0.0.1:42638
+Jan 28 20:27 : client: [4] closed
+Jan 28 20:27 : client: [5] opened from 127.0.0.1:42642
+Jan 28 20:27 : client: [5] closed
+Jan 28 20:32 : client: [6] opened from 127.0.0.1:43130
+Jan 28 20:32 : client: [6] closed
+Jan 28 21:47 : client: [7] opened from 127.0.0.1:43608
+Jan 28 21:47 : client: [7] closed
+Jan 28 21:47 : client: [8] opened from 127.0.0.1:43612
+Jan 28 21:47 : client: [8] closed
+Jan 28 21:51 : player: played "Violet Melody.flac"
+Jan 28 21:56 : player: played "Avatar - Main Theme (Piano Version).flac"
+Jan 28 21:57 : client: [9] opened from 127.0.0.1:43756
+Jan 28 21:57 : client: [9] closed
+Jan 28 22:48 : client: [2] closed
+Jan 28 22:48 : client: [1] closed
+Jan 28 22:48 : client: [0] closed
+Jan 28 22:48 : player: played "Interstellar Main Theme.flac"
+Jan 29 18:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 29 18:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 29 18:42 : client: [0] opened from 127.0.0.1:38940
+Jan 29 18:42 : client: [1] opened from 127.0.0.1:38942
+Jan 30 01:03 : client: [1] closed
+Jan 30 01:03 : client: [0] closed
+Jan 30 01:03 : player: played "Interstellar Main Theme.flac"
+Jan 30 18:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 18:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 18:43 : client: [0] opened from 127.0.0.1:57906
+Jan 30 18:43 : client: [1] opened from 127.0.0.1:57908
+Jan 30 20:50 : client: [0] closed
+Jan 30 20:50 : client: [1] closed
+Jan 30 20:50 : player: played "Interstellar Main Theme.flac"
+Jan 31 17:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 31 17:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 31 17:51 : client: [0] opened from 127.0.0.1:40206
+Jan 31 17:51 : client: [1] opened from 127.0.0.1:40208
+Jan 31 23:02 : client: [1] closed
+Jan 31 23:02 : client: [0] closed
+Jan 31 23:02 : player: played "Interstellar Main Theme.flac"
+Jan 31 23:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 31 23:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 31 23:06 : client: [0] opened from 127.0.0.1:55626
+Jan 31 23:06 : client: [1] opened from 127.0.0.1:55628
+Jan 31 23:22 : client: [1] closed
+Jan 31 23:22 : client: [0] closed
+Jan 31 23:22 : player: played "Interstellar Main Theme.flac"
+Feb 01 13:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 13:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 01 13:04 : client: [0] opened from 127.0.0.1:33318
+Feb 01 13:04 : client: [1] opened from 127.0.0.1:33320
+Feb 01 22:55 : client: [1] closed
+Feb 01 22:55 : client: [0] closed
+Feb 01 22:55 : player: played "Interstellar Main Theme.flac"
+Feb 02 10:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 10:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 10:21 : client: [0] opened from 127.0.0.1:47954
+Feb 02 10:21 : client: [1] opened from 127.0.0.1:47956
+Feb 02 15:03 : client: [2] opened from 127.0.0.1:50152
+Feb 02 15:03 : client: [2] closed
+Feb 02 15:03 : client: [3] opened from 127.0.0.1:50154
+Feb 02 15:03 : client: [3] closed
+Feb 02 15:07 : player: played "Violet Melody.flac"
+Feb 02 15:10 : client: [4] opened from 127.0.0.1:50208
+Feb 02 15:10 : client: [4] closed
+Feb 02 15:12 : client: [1] closed
+Feb 02 15:12 : client: [0] closed
+Feb 02 15:12 : player: played "How To Train Your Dragon (Piano).flac"
+Feb 02 16:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 16:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 02 16:21 : client: [0] opened from 127.0.0.1:50950
+Feb 02 16:21 : client: [1] opened from 127.0.0.1:50952
+Feb 02 16:21 : client: [2] opened from 127.0.0.1:50982
+Feb 02 16:21 : client: [2] closed
+Feb 02 16:23 : client: [3] opened from 127.0.0.1:51188
+Feb 02 16:23 : client: [3] closed
+Feb 02 21:18 : client: [4] opened from 127.0.0.1:52440
+Feb 02 21:18 : client: [4] closed
+Feb 02 21:18 : client: [5] opened from 127.0.0.1:52442
+Feb 02 21:18 : client: [5] closed
+Feb 02 21:18 : client: [6] opened from 127.0.0.1:52444
+Feb 02 21:18 : client: [6] closed
+Feb 02 21:18 : client: [7] opened from 127.0.0.1:52446
+Feb 02 21:18 : client: [7] closed
+Feb 02 21:18 : client: [8] opened from 127.0.0.1:52448
+Feb 02 21:18 : client: [8] closed
+Feb 02 21:18 : client: [9] opened from 127.0.0.1:52450
+Feb 02 21:18 : client: [9] closed
+Feb 02 21:18 : client: [10] opened from 127.0.0.1:52452
+Feb 02 21:18 : client: [10] closed
+Feb 02 21:18 : client: [11] opened from 127.0.0.1:52454
+Feb 02 21:18 : client: [11] closed
+Feb 02 21:18 : client: [12] opened from 127.0.0.1:52456
+Feb 02 21:18 : client: [12] closed
+Feb 02 21:19 : client: [13] opened from 127.0.0.1:52458
+Feb 02 21:19 : client: [13] closed
+Feb 02 23:15 : client: [1] closed
+Feb 02 23:15 : client: [0] closed
+Feb 02 23:15 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 03 18:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:55 : client: [0] opened from 127.0.0.1:46100
+Feb 03 18:55 : client: [1] opened from 127.0.0.1:46102
+Feb 03 22:55 : client: [0] closed
+Feb 03 22:55 : client: [1] closed
+Feb 03 22:55 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 04 18:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 18:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 18:44 : client: [0] opened from 127.0.0.1:50082
+Feb 04 18:44 : client: [1] opened from 127.0.0.1:50084
+Feb 04 19:40 : client: [2] opened from 127.0.0.1:51068
+Feb 04 19:40 : client: [2] closed
+Feb 04 19:40 : client: [3] opened from 127.0.0.1:51070
+Feb 04 19:40 : client: [3] closed
+Feb 04 19:40 : client: [4] opened from 127.0.0.1:51072
+Feb 04 19:40 : client: [4] closed
+Feb 04 19:40 : client: [5] opened from 127.0.0.1:51074
+Feb 04 19:40 : client: [5] closed
+Feb 04 19:40 : client: [6] opened from 127.0.0.1:51076
+Feb 04 19:40 : client: [6] closed
+Feb 04 22:22 : client: [1] closed
+Feb 04 22:22 : client: [0] closed
+Feb 04 22:22 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 05 21:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 21:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 21:05 : client: [0] opened from 127.0.0.1:41922
+Feb 05 21:05 : client: [1] opened from 127.0.0.1:41924
+Feb 05 22:38 : client: [1] closed
+Feb 05 22:38 : client: [0] closed
+Feb 05 22:38 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 06 20:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 20:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 20:32 : client: [0] opened from 127.0.0.1:53480
+Feb 06 20:32 : client: [1] opened from 127.0.0.1:53482
+Feb 06 22:18 : client: [0] closed
+Feb 06 22:18 : client: [2] opened from 127.0.0.1:54880
+Feb 06 22:18 : client: [1] closed
+Feb 06 22:18 : client: [3] opened from 127.0.0.1:54882
+Feb 06 23:09 : client: [3] closed
+Feb 06 23:09 : client: [2] closed
+Feb 06 23:09 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 07 18:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 18:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 18:10 : client: [0] opened from 127.0.0.1:51472
+Feb 07 18:10 : client: [1] opened from 127.0.0.1:51474
+Feb 07 19:56 : client: [0] closed
+Feb 07 19:56 : client: [1] closed
+Feb 07 19:56 : client: [2] opened from 127.0.0.1:54878
+Feb 07 19:56 : client: [3] opened from 127.0.0.1:54880
+Feb 08 08:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 08:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 08:29 : client: [0] opened from 127.0.0.1:42550
+Feb 08 08:29 : client: [1] opened from 127.0.0.1:42552
+Feb 08 11:40 : client: [2] opened from 127.0.0.1:46116
+Feb 08 11:40 : client: [2] closed
+Feb 08 11:40 : client: [3] opened from 127.0.0.1:46122
+Feb 08 11:40 : client: [3] closed
+Feb 08 11:40 : client: [4] opened from 127.0.0.1:46124
+Feb 08 11:40 : client: [4] closed
+Feb 08 11:40 : client: [5] opened from 127.0.0.1:46126
+Feb 08 11:40 : client: [5] closed
+Feb 08 12:10 : client: [0] closed
+Feb 08 12:10 : client: [1] closed
+Feb 08 12:10 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 09 08:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 08:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 08:41 : client: [0] opened from 127.0.0.1:38568
+Feb 09 08:41 : client: [1] opened from 127.0.0.1:38570
+                                  Feb 10 18:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 18:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 18:47 : client: [0] opened from 127.0.0.1:36152
+Feb 10 18:47 : client: [1] opened from 127.0.0.1:36154
+Feb 10 22:26 : client: [2] opened from 127.0.0.1:40046
+Feb 10 22:26 : client: [2] closed
+Feb 10 22:26 : client: [3] opened from 127.0.0.1:40048
+Feb 10 22:26 : client: [3] closed
+Feb 10 22:26 : client: [4] opened from 127.0.0.1:40050
+Feb 10 22:26 : client: [4] closed
+Feb 10 22:31 : client: [0] closed
+Feb 10 22:31 : client: [1] closed
+Feb 10 22:31 : exception: Failed to play on "pulse audio" (pulse): suspended
+Feb 10 22:31 : exception: Failed to open audio output
+Feb 10 22:31 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 11 17:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 17:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 17:46 : client: [0] opened from 127.0.0.1:40518
+Feb 11 17:46 : client: [1] opened from 127.0.0.1:40520
+Feb 11 20:03 : client: [2] opened from 127.0.0.1:44258
+Feb 11 20:03 : client: [2] closed
+Feb 11 20:03 : client: [3] opened from 127.0.0.1:44266
+Feb 11 20:03 : client: [3] closed
+Feb 11 20:03 : client: [4] opened from 127.0.0.1:44268
+Feb 11 20:03 : client: [4] closed
+Feb 11 20:03 : client: [5] opened from 127.0.0.1:44270
+Feb 11 20:03 : client: [5] closed
+Feb 11 20:03 : client: [6] opened from 127.0.0.1:44272
+Feb 11 20:03 : client: [6] closed
+Feb 11 20:03 : client: [7] opened from 127.0.0.1:44274
+Feb 11 20:03 : client: [7] closed
+Feb 11 20:03 : client: [8] opened from 127.0.0.1:44276
+Feb 11 20:03 : client: [8] closed
+Feb 11 20:03 : client: [9] opened from 127.0.0.1:44278
+Feb 11 20:03 : client: [9] closed
+Feb 11 20:03 : client: [10] opened from 127.0.0.1:44280
+Feb 11 20:03 : client: [10] closed
+Feb 11 20:03 : client: [11] opened from 127.0.0.1:44282
+Feb 11 20:03 : client: [11] closed
+Feb 11 20:03 : client: [12] opened from 127.0.0.1:44284
+Feb 11 20:03 : client: [12] closed
+Feb 11 20:03 : client: [13] opened from 127.0.0.1:44286
+Feb 11 20:03 : client: [13] closed
+Feb 11 20:03 : client: [14] opened from 127.0.0.1:44288
+Feb 11 20:03 : client: [14] closed
+Feb 11 20:03 : client: [15] opened from 127.0.0.1:44290
+Feb 11 20:03 : client: [15] closed
+Feb 11 20:03 : client: [16] opened from 127.0.0.1:44292
+Feb 11 20:03 : client: [16] closed
+Feb 11 20:03 : client: [17] opened from 127.0.0.1:44294
+Feb 11 20:03 : client: [17] closed
+Feb 11 20:03 : client: [18] opened from 127.0.0.1:44296
+Feb 11 20:03 : client: [18] closed
+Feb 11 20:03 : client: [19] opened from 127.0.0.1:44298
+Feb 11 20:03 : client: [19] closed
+Feb 11 20:03 : client: [20] opened from 127.0.0.1:44300
+Feb 11 20:03 : client: [20] closed
+Feb 11 20:03 : client: [21] opened from 127.0.0.1:44302
+Feb 11 20:03 : client: [21] closed
+Feb 11 20:03 : client: [22] opened from 127.0.0.1:44320
+Feb 11 20:03 : client: [22] closed
+Feb 11 20:09 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 11 20:09 : client: [23] opened from 127.0.0.1:45230
+Feb 11 20:09 : client: [23] closed
+Feb 11 20:09 : client: [24] opened from 127.0.0.1:45246
+Feb 11 20:09 : client: [24] closed
+Feb 11 20:12 : player: played "Violet Melody.flac"
+Feb 11 20:12 : client: [25] opened from 127.0.0.1:45790
+Feb 11 20:12 : client: [25] closed
+Feb 11 21:18 : client: [1] closed
+Feb 11 21:18 : client: [0] closed
+Feb 11 21:18 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 12 17:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 17:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 17:59 : client: [0] opened from 127.0.0.1:48778
+Feb 12 17:59 : client: [1] opened from 127.0.0.1:48780
+Feb 13 00:34 : client: [0] closed
+Feb 13 00:34 : client: [1] closed
+Feb 13 00:34 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 13 05:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 05:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 05:53 : client: [0] opened from 127.0.0.1:58916
+Feb 13 05:53 : client: [1] opened from 127.0.0.1:58918
+Feb 14 16:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 16:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 16:35 : client: [0] opened from 127.0.0.1:37532
+Feb 14 16:35 : client: [1] opened from 127.0.0.1:37534
+Feb 14 19:58 : client: [0] closed
+Feb 14 19:58 : client: [1] closed
+Feb 14 19:58 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 15 13:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 13:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 13:06 : client: [0] opened from 127.0.0.1:58620
+Feb 15 13:06 : client: [1] opened from 127.0.0.1:58622
+Feb 15 19:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 19:16 : client: [0] opened from 127.0.0.1:54120
+Feb 15 19:16 : client: [1] opened from 127.0.0.1:54122
+Feb 15 19:16 : client: [2] opened from 127.0.0.1:54126
+Feb 15 19:16 : client: [2] closed
+Feb 15 19:16 : client: [3] opened from 127.0.0.1:54148
+Feb 15 19:16 : client: [3] closed
+Feb 15 19:16 : client: [4] opened from 127.0.0.1:54150
+Feb 15 19:16 : client: [4] closed
+Feb 15 19:16 : client: [5] opened from 127.0.0.1:54152
+Feb 15 19:16 : client: [5] closed
+Feb 15 19:16 : client: [6] opened from 127.0.0.1:54154
+Feb 15 19:16 : client: [6] closed
+Feb 15 19:16 : client: [7] opened from 127.0.0.1:54156
+Feb 15 19:16 : client: [7] closed
+Feb 15 19:16 : client: [8] opened from 127.0.0.1:54158
+Feb 15 19:16 : client: [8] closed
+Feb 15 19:16 : client: [9] opened from 127.0.0.1:54170
+Feb 15 19:16 : client: [9] closed
+Feb 15 19:16 : client: [10] opened from 127.0.0.1:54176
+Feb 15 19:16 : client: [10] closed
+Feb 15 19:16 : client: [11] opened from 127.0.0.1:54186
+Feb 15 19:16 : client: [11] closed
+Feb 15 19:19 : player: played "Violet Melody.flac"
+Feb 15 19:23 : player: played "How To Train Your Dragon (Piano).flac"
+Feb 15 19:28 : player: played "Interstellar Main Theme.flac"
+Feb 15 19:31 : player: played "Violet Melody.flac"
+Feb 15 19:36 : player: played "Avatar - Main Theme (Piano Version).flac"
+Feb 15 19:41 : player: played "Interstellar Main Theme.flac"
+Feb 15 19:44 : player: played "Violet Melody.flac"
+Feb 15 19:46 : client: [12] opened from 127.0.0.1:54694
+Feb 15 19:46 : client: [12] closed
+Feb 15 23:52 : client: [1] closed
+Feb 15 23:52 : client: [0] closed
+Feb 15 23:52 : player: played "How To Train Your Dragon (Piano).flac"
+Feb 16 09:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 09:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 09:33 : client: [0] opened from 127.0.0.1:53374
+Feb 16 09:33 : client: [1] opened from 127.0.0.1:53376
+Feb 16 20:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 20:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 20:10 : client: [0] opened from 127.0.0.1:58426
+Feb 16 20:10 : client: [1] opened from 127.0.0.1:58428
