@@ -29,7 +29,7 @@ tray-padding = 4
 
 modules-left = i3
 modules-center = date
-modules-right = pulseaudio filesystem wireless-network wired-network cpu
+modules-right = pulseaudio filesystem battery wireless-network wired-network cpu
 
 module-margin = 0
 module-margin-left = 1
@@ -92,8 +92,28 @@ label-connected-foreground = ${colours.white}
 ;label-disconnected = not connected
 label-disconnected-foreground = ${colours.red}
 
+[module/battery]
+type = internal/battery
+
+battery = BAT0
+adapter = AC
+poll-interval = 5
+
+
+time-format = %H:%M
+format-charging = <ramp-capacity>  <label-charging>
+format-discharging = <ramp-capacity>  <label-discharging>
+label-charging =  %percentage%%
+label-discharging = %percentage%%
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
 [module/wired-network]
-type=internal/network
+type = internal/network
 
 interface = enp0s20u8
 
