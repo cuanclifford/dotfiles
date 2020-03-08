@@ -760,7 +760,14 @@ Feb 16 20:10 : exception: RTIOThread could not get realtime scheduling, continui
 Feb 16 20:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Feb 16 20:10 : client: [0] opened from 127.0.0.1:58426
 Feb 16 20:10 : client: [1] opened from 127.0.0.1:58428
+<<<<<<< HEAD:mpd/log
 Feb 16 23:48 : client: [0] closed
 Feb 16 23:48 : client: [1] closed
 Feb 16 23:48 : exception: Failed to create /home/q/.config/mpd/state: No such file or directory
 Feb 16 23:48 : player: played "How To Train Your Dragon (Piano).flac"
+=======
+Feb 17 06:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 06:25 : update: added /How To Train Your Dragon - Main Theme (Piano Version).mp3
+Feb 17 06:25 : client: [0] opened from 127.0.0.1:54020
+Feb 17 06:25 : client: [1] opened from 127.0.0.1:54022
+>>>>>>> 878ee2a02590bb2831b746cd710cd6d07432d88a:mpd/mpd/log

@@ -1,0 +1,80 @@
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1052,
+       "width": 1146,
+       "x": 4,
+       "y": 24
+    },
+    "name": "Steam",
+    "percent": 0.6,
+    "swallows": [
+       {
+       "class": "^Steam$",
+       "instance": "^Steam$",
+       "title": "^Steam$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1052,
+       "width": 762,
+       "x": 1154,
+       "y": 24
+    },
+    "name": "Friends List",
+    "percent": 0.4,
+    "swallows": [
+       {
+       "class": "^Steam$",
+       "instance": "^Steam$",
+       "title": "^Friends List$"
+       }
+    ],
+    "type": "con"
+}
+
+// {
+//    "border": "normal",
+//    "floating": "auto_off",
+//    "layout": "splith",
+//    "percent": null,
+//    "rect": {
+//       "height": 107,
+//       "width": 384,
+//       "x": 768,
+//       "y": 469
+//    },
+//    "type": "floating_con",
+//    "nodes": [
+//        {
+//            "border": "none",
+//            "current_border_width": 2,
+//            "floating": "user_on",
+//            "geometry": {
+//               "height": 142,
+//               "width": 384,
+//               "x": 768,
+//               "y": 469
+//            },
+//            "name": "Steam",
+//            "percent": 1,
+//            "swallows": [
+//               {
+//               "class": "^Steam$",
+//               "instance": "^Steam$",
+//               "title": "^Steam$"
+//               }
+//            ],
+//            "type": "con"
+//        }
+//    ]
+// }
