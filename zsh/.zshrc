@@ -65,6 +65,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+
 # Personal aliases
 alias lock=$HOME/.config/i3lock/lock.sh
 alias music=ncmpcpp
