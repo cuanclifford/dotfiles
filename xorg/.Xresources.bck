@@ -1,0 +1,53 @@
+!--------------------
+!  URxvt Settings
+!--------------------
+URxvt*scrollBar: false
+URxvt*letterSpace: -1
+urxvt*depth: 32
+urxvt*transparency: true
+urxvt*shading: 30
+
+!--------------------
+!  Font Settings
+!--------------------
+URxvt*font: xft:Hack Nerd Font:pixelsize=12:style=Regular:antialias=true:hinting=true
+URxvt*boldFont: xft:Hack Nerd Font:pixelsize=12:style=Regular:antialias=true:hinting=true
+
+!--------------------
+!  Colour Settings
+!--------------------
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0: #000000
+*.color1: #FF5555
+*.color2: #50FA7B
+*.color3: #F1FA8C
+*.color4: #BD93F9
+*.color5: #FF79C6
+*.color6: #8BE9FD
+*.color7: #BFBFBF
+*.color8: #4D4D4D
+*.color9: #FF6E67
+*.color10: #5AF78E
+*.color11: #F4F99D
+*.color12: #CAA9FA
+*.color13: #FF92D0
+*.color14: #9AEDFE
+*.color15: #E6E6E6
+
+! color0:   black
+! color1:   light red
+! color2:   light green
+! color3:   light yellow
+! color4:   light purple
+! color5:   light pink
+! color6:   light cyan
+! color7:   light gray
+! color8:   dark gray
+! color9:   bright red
+! color10:  bright green
+! color11:  bright yellow
+! color12:  bright purple
+! color13:  bright pink
+! color14:  bright cyan
+! color15:  bright gray

@@ -4,7 +4,4 @@ if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 fi
 
 # MPD start
-#[ ! -s ~/.config/mpd/pid ] && mpd
-
-# Ruby Version Manager
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[ ! -s ~/.config/mpd/pid ] && mpd

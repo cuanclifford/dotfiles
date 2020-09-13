@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/q/.oh-my-zsh"
+export ZSH="/home/q/.ohmyzsh"
 export XDG_CONFIG_HOME=$HOME/.config
 
 ZSH_THEME="nicoulaj"
