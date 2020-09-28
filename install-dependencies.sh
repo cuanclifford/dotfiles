@@ -6,7 +6,6 @@ mkdir ~/AUR \
 	&& git clone https://aur.archlinux.org/polybar-git.git \
 	&& cd polybar-git \
 	&& makepkg -si \
-
 	&& echo "Installing Hack Nerd Font" \
 	&& cd ~/AUR \
 	&& git clone https://aur.archlinux.org/nerd-fonts-hack.git \
