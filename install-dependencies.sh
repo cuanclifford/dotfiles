@@ -1,4 +1,4 @@
-sudo pacman -S git xorg-server zsh xorg-xrandr xorg-xinit pyenv ruby noto-fonts rxvt-unicode feh dmenu i3lock
+sudo pacman -S git xorg-server zsh xorg-xrandr xorg-xinit pyenv ruby noto-fonts rxvt-unicode feh dmenu i3lock maim xclip
 
 mkdir ~/AUR
 echo "Installing Polybar"
