@@ -56,6 +56,14 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# move workspace to monitor
+bindsym $mod+Ctrl+j move workspace to output left
+bindsym $mod+Ctrl+semicolon move workspace to output right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Ctrl+Left move workspace to output left
+bindsym $mod+Ctrl+Right move workspace to output right
+
 # split in horizontal orientation
 bindsym $mod+h split h
 
@@ -126,6 +134,13 @@ bindsym $mod+Ctrl+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Ctrl+8 move container to workspace $ws8; workspace $ws8
 bindsym $mod+Ctrl+9 move container to workspace $ws9; workspace $ws9
 bindsym $mod+Ctrl+0 move container to workspace $ws10; workspace $ws10
+
+# class                     border  backgr. text    indica. child_border
+client.focused              #6272A4 #6272A4 #F8F8F2 #6272A4 #6272A4
+client.focused_inactive     #44475A #44475A #F8F8F2 #44475A #44475A
+client.unfocused            #282A36 #282A36 #BFBFBF #282A36 #282A36
+client.urgent               #44475A #FF5555 #F8F8F2 #FF5555 #FF5555
+client.placeholder          #282A36 #282A36 #F8F8F2 #282A36 #282A36
 
 # i3 controls
 bindsym $mod+Shift+c reload

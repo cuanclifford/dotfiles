@@ -12,7 +12,7 @@ white = ${xrdb:color15:#E6E6E6}
 transparent = #00000000
 
 [bar/qbar-top]
-monitor = HDMI-0
+monitor = ${env:MONITOR}
 width = 100%
 height = 34
 
@@ -38,7 +38,7 @@ tray-maxsize = 18
 tray-padding = 4
 
 [bar/qbar-bottom]
-monitor = HDMI-0
+monitor = ${env:MONITOR}
 width = 100%
 height = 34
 bottom = true
@@ -215,6 +215,8 @@ label-focused-background = ${colours.gray}
 
 label-unfocused = %index%
 label-unfocused-padding = 5
+
+label-visible-padding = 5
 
 label-urgent = %index%
 label-urgent-padding = 5

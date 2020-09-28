@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale /home/cuanc/wallpaper.*
+feh --no-fehbg --bg-scale /home/q/wallpaper.*

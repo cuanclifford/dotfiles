@@ -12,8 +12,6 @@ urxvt*shading: 30
 !--------------------
 !  Font Settings
 !--------------------
-!URxvt*font: xft:Hack Nerd Font:pixelsize=12:style=Regular:antialias=true:hinting=true
-!URxvt*boldFont: xft:Hack Nerd Font:pixelsize=12:style=Regular:antialias=true:hinting=true
 URxvt*font:	xft:Monaco:pixelsize=12:style=Regular:antialias=true:hinting=true, \
 			xft:Hack Nerd Font:pixelsize=12:style=Regular:antialias=true:hinting=true
 
