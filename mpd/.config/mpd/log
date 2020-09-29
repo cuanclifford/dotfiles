@@ -1,8 +1,1 @@
 
-Sep 28 20:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Sep 28 20:57 : exception: Failed to decode /home/q/Music/L.M. - Eve.flac; Failed to open '/home/q/Music/L.M. - Eve.flac': No such file or directory
-Sep 28 20:57 : player: played "L.M. - Eve.flac"
-Sep 28 20:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Sep 28 20:58 : exception: Failed to decode /home/q/Music/L.M. - Eve.flac; Failed to open '/home/q/Music/L.M. - Eve.flac': No such file or directory
-Sep 28 20:58 : player: played "L.M. - Eve.flac"
-Sep 28 20:59 : update: removing L.M. - Eve.flac
