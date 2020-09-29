@@ -9,6 +9,9 @@ gray = ${xrdb:color8:#4D4D4D}
 lightred = ${xrdb:color9:#FF6E67}
 green = ${xrdb:color10:#5AF78E}
 white = ${xrdb:color15:#E6E6E6}
+background = ${xrdb:background:#282A36}
+foreground = ${xrdb:foreground:#F8F8F2}
+accent = ${xrdb:accent:#6272A4}
 transparent = #00000000
 
 [bar/qbar-top]
@@ -211,7 +214,7 @@ label-dimmed-underline = ${colours.transparent}
 label-focused =	%index%
 label-focused-padding =	5
 label-focused-underline = ${colours.white}
-label-focused-background = ${colours.gray}
+label-focused-background = ${colours.accent}
 
 label-unfocused = %index%
 label-unfocused-padding = 5
@@ -298,3 +301,6 @@ bar-width = 20
 bar-indicator = |
 bar-fill = ─
 bar-empty = ─
+
+[settings]
+pseudo-transparency = true
