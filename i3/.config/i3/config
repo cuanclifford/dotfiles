@@ -198,8 +198,8 @@ assign [class="Steam"] 8
 assign [class="whatsapp-nativefier-d40211"] 3
 
 # startup
-exec_always --no-startup-id $HOME/.fehbg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id i3-msg "workspace 2; exec /usr/bin/firefox"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/telegram-desktop"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/discord"
+exec_always --no-startup-id i3-msg "workspace 8; exec /usr/bin/steam"
