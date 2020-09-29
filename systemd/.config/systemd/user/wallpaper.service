@@ -1,0 +1,11 @@
+[Unit]
+Description=automatic wallpaper fetcher
+Wants=wallpaper.timer
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0
+ExecStart=/home/q/.config/wallpaper/wallpaper
+
+[Install]
+WantedBy=default.target
