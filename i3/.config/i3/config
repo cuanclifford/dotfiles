@@ -195,6 +195,7 @@ assign [class="firefox"] 2
 assign [class="TelegramDesktop"] 3
 assign [class="discord"] 3
 assign [class="Steam"] 8
+assign [class="whatsapp-nativefier-d40211"] 3
 
 # startup
 exec_always --no-startup-id $HOME/.fehbg
