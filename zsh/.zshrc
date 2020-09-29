@@ -65,15 +65,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-
 # Personal aliases
 alias lock=$HOME/.config/i3lock/lock.sh
 alias music=ncmpcpp
-
-# Add Ruby gems to PATH
-export PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+alias wallpaper=$HOME/.config/wallpaper/wallpaper
