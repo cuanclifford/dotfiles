@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # API parameters
-QUERY=space
-CATEGORIES=010 # genera/anime/people
+QUERY=landscape
+CATEGORIES=010 # general/anime/people
 PURITY=100 # sfw/sketchy/nsfw
 MINIMUM_RESOLUTION=1920x1080
 RATIOS=16x9
@@ -11,16 +11,13 @@ COLOURS=000000,333399,424153
 SEARCH_PARAMS="q=$QUERY&categories=$CATEGORIES&purity=$PURITY&atLeast=$MINIMUM_RESOLUTION&ratios=$RATIOS&colors=$COLOURS&sorting=$SORTING"
 
 # Remove old wallpaper
-if test -f "$HOME/.wallpaper.jpg"; then
-	rm $HOME/.wallpaper.jpg
-elif test -f "$HOME/.wallpaper.png"; then
-	rm $HOME/.wallpaper.png
-fi
+rm $HOME/.config/wallpaper/wallpaper-*.*
 
 random_wallpapers=$(curl "https://wallhaven.cc/api/v1/search?$SEARCH_PARAMS" 2>/dev/null)
 wallpaper=$(echo $random_wallpapers | jq '.data[0].path' | sed -e 's/^"//' -e 's/"$//')
+id=$(echo $random_wallpapers | jq '.data[0].id' | sed -e 's/^"//' -e 's/"$//')
 filename=$(basename -- "$wallpaper")
 extension="${filename##*.}"
-curl $(echo $wallpaper) --output $HOME/.wallpaper.$extension
+curl $(echo $wallpaper) --output $HOME/.config/wallpaper/wallpaper-$id.$extension
 
 sh $HOME/fehbg.sh

@@ -5,3 +5,5 @@ fi
 
 # MPD start
 [ ! -s ~/.config/mpd/pid ] && mpd
+
+export PATH="$HOME/.cargo/bin:$PATH"

@@ -69,3 +69,6 @@ source $ZSH/oh-my-zsh.sh
 alias lock=$HOME/.config/i3lock/lock.sh
 alias music=ncmpcpp
 alias wallpaper=$HOME/.config/wallpaper/wallpaper
+alias save-wallpaper=$HOME/.config/wallpaper/save-wallpaper
+
+export PATH="${PATH}:$HOME/.cargo/bin"
