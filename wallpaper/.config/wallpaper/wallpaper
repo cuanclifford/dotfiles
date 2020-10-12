@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # API parameters
-QUERY="landscape"
+QUERY="landscape digital"
 CATEGORIES=010 # general/anime/people
 PURITY=100 # sfw/sketchy/nsfw
 MINIMUM_RESOLUTION=1920x1080
