@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # API parameters
-QUERY=landscape
+QUERY="landscape"
 CATEGORIES=010 # general/anime/people
 PURITY=100 # sfw/sketchy/nsfw
 MINIMUM_RESOLUTION=1920x1080
 RATIOS=16x9
 SORTING=random
-COLOURS=000000,333399,424153
+#COLOURS=000000,333399,424153
 SEARCH_PARAMS="q=$QUERY&categories=$CATEGORIES&purity=$PURITY&atLeast=$MINIMUM_RESOLUTION&ratios=$RATIOS&colors=$COLOURS&sorting=$SORTING"
 
 # Remove old wallpaper

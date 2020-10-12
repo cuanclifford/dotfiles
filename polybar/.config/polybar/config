@@ -34,7 +34,7 @@ module-margin = 4
 
 modules-left = i3 
 modules-center = date
-modules-right = backlight filesystem pulseaudio wireless-network wired-network
+modules-right = filesystem pulseaudio wireless-network
 
 tray-position = right
 tray-maxsize = 18
@@ -69,7 +69,7 @@ type = internal/cpu
 interval = 0.5
 format = <label> <ramp-coreload>
 
-label = CPU %percentage%%
+label = ﬙  %percentage%%
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 3
@@ -98,7 +98,7 @@ ramp-coreload-7-foreground = #ff5555
 
 [module/memory]
 type = internal/memory
-label = RAM %gb_used%
+label =   %gb_used%
 format = <label> <bar-used>
 
 interval = 1.0
@@ -120,7 +120,7 @@ bar-used-empty-foreground = ${colours.gray}
 [module/wireless-network]
 type = internal/network
 
-interface = wlp110s0
+interface = wlp4s0
 
 interval = 1.0
 

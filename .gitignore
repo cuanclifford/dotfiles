@@ -3,3 +3,6 @@ mpd/.config/mpd/state
 mpd/.config/mpd/database
 mpd/.config/mpd/pid
 mpd/.config/mpd/sticker.sql
+
+wallpaper/.config/wallpaper/*.png
+wallpaper/.config/wallpaper/*.jpg
