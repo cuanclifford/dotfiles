@@ -67,11 +67,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Personal aliases
 alias lock=$HOME/.config/i3lock/lock.sh
-alias music=ncmpcpp
-alias wallpaper=$HOME/.config/wallpaper/wallpaper
-alias save-wallpaper=$HOME/.config/wallpaper/save-wallpaper
 alias kc=kubectl
-alias cd="figlet Use AutoCD; #"
 
-export PATH="${PATH}:$HOME/.cargo/bin"
+export PATH="${PATH}:$HOME/.cargo/bin:$HOME/.local/bin"
 export EDITOR="/usr/bin/vim"
