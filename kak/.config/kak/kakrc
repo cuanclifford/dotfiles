@@ -1,0 +1,21 @@
+# relative line numbers
+hook global BufCreate .* %[
+    add-highlighter buffer/ number-lines -relative -hlcursor
+    add-highlighter buffer/ wrap
+]
+
+add-highlighter global/ show-matching
+
+# disable clippy
+#set-option global ui_options ncurses_assistance=off
+
+# indentation
+set-option global tabstop	4
+set-option global indentwidth	4
+
+# tabs to spaces
+hook global InsertChar \t %{
+    exec -draft h@
+}
+
+colorscheme gruvbox
