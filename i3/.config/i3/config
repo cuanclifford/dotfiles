@@ -241,7 +241,7 @@ bindsym --release Shift+Print exec --no-startup-id main -i $xdotool getactivewin
 bindsym --release Print exec --no-startup-id main -s | xclip - selection clipboard -t image/png
 
 # screen lock
-#bindsym $sup+u exec --no-startup-id $HOME/.config/i3lock/lock.sh
+bindsym $sup+Escape exec --no-startup-id $HOME/.config/i3lock/lock.sh
 
 # assign applications to workspace
 assign [class="Chromium"] 2
@@ -252,7 +252,7 @@ assign [class="whatsapp-nativefier-d40211"] 3
 assign [class="Steam"] 8
 
 # wallpaper
-feh --no-fehbg --bg-scale $HOME/wallpaper.(png|jpg|jpeg|webp)
+exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.png"
 
 # autostart applications
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -276,7 +276,7 @@ set $white #ffffff
 
 # bar
 bar {
-    font pango:Comic Code Ligatures 11px
+    font pango:Comic Code Ligatures 12px
 	position top
 	status_command i3blocks
 }
