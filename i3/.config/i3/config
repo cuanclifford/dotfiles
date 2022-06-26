@@ -58,8 +58,8 @@ set $sup Mod4
 # use Mouse+$sup to drag floating windows to their wanted position
 floating_modifier $sup
 
-# start a terminal
-bindsym $sup+c exec urxvt
+# start Urxvt and attach to a tmux session
+bindsym $sup+c exec urxvt -e bash -c "tmux -q has-session && exec tmux attach-session -d || exec tmux new-session -n$USER -s$USER@$HOSTNAME"
 
 # kill focused window
 bindsym $sup+x kill
