@@ -36,3 +36,9 @@ plug "andreyorst/fzf.kak"
 # key mappings
 map global normal <c-p> ': fzf-mode<ret>'
 
+# language server
+eval %sh{kak-lsp --kakoune -s $kak_session}
+hook global WinSetOption filetype=(rust|python|go|javascript|typescript|c|cpp) %{
+    lsp-enable-window
+}
+
