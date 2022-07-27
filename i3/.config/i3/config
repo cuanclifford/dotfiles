@@ -59,7 +59,8 @@ set $sup Mod4
 floating_modifier $sup
 
 # start Urxvt and attach to a tmux session
-bindsym $sup+c exec urxvt -e bash -c "tmux -q has-session && exec tmux attach-session -d || exec tmux new-session -n$USER -s$USER@$HOSTNAME"
+#bindsym $sup+c exec urxvt -e bash -c "tmux -q has-session && exec tmux attach-session -d || exec tmux new-session -n$USER -s$USER@$HOSTNAME"
+bindsym $sup+c exec urxvt
 
 # kill focused window
 bindsym $sup+x kill
@@ -132,7 +133,7 @@ bindsym $sup+space focus mode_toggle
 bindsym $sup+a focus parent
 
 # focus the child container
-#bindsym $sup+d focus child
+bindsym $sup+g focus child
 
 # move the currently focused window to the scratchpad
 bindsym $sup+Shift+minus move scratchpad
@@ -224,6 +225,9 @@ mode "resize" {
 
 bindsym $sup+r mode "resize"
 
+# don't focus new windows
+no_focus [all]
+
 # steam
 for_window [class="^Steam$" title="Steam - News"] floating enable
 for_window [class="^Steam$" title="^Settings$"] floating enable
@@ -237,8 +241,8 @@ for_window [class="^Steam$" title="^Steam Keyboard$"] floating enable
 for_window [class="^TelegramDesktop$" title="^Media viewer$"] move absolute position center
 
 # screenshot
-bindsym --release Shift+Print exec --no-startup-id main -i $xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym --release Print exec --no-startup-id main -s | xclip - selection clipboard -t image/png
+bindsym --release Shift+Print exec --no-startup-id maim -i $(xdotool getactivewindow) -u | xclip -selection clipboard -t image/png
+bindsym --release Print exec --no-startup-id maim -s -u | xclip -selection clipboard -t image/png
 
 # screen lock
 bindsym $sup+Escape exec --no-startup-id $HOME/.config/i3lock/lock.sh
@@ -250,17 +254,25 @@ assign [class="TelegramDesktop"] 3
 assign [class="discord"] 3
 assign [class="whatsapp-nativefier-d40211"] 3
 assign [class="Steam"] 8
+assign [class="csgo_linux64"] 9
 
 # wallpaper
 exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.png"
 
 # autostart applications
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id i3-msg "workspace 1; exec /usr/bin/urxvt"
 exec_always --no-startup-id i3-msg "workspace 2; exec /usr/bin/chromium"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/telegram-desktop"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/discord"
 exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/whatsapp-nativefier"
 exec_always --no-startup-id i3-msg "workspace 8; exec /usr/bin/steam"
+
+# assign workspaces to monitors
+workspace 1 output DisplayPort-2
+workspace 2 output DisplayPort-1
+workspace 3 output DisplayPort-2
+workspace 8 output DisplayPort-1
+workspace 9 output DisplayProt-1
 
 # gruvbox colors
 set $bg #282828
@@ -277,7 +289,7 @@ set $white #ffffff
 # bar
 bar {
     font pango:Comic Code Ligatures 12px
-	position top
+#	position top
 	status_command i3blocks
 }
 
@@ -286,3 +298,8 @@ client.focused		$blue $blue $darkgray $purple $darkgray
 client.focused_inactive	$darkgray $darkgray $yellow $purple $darkgray
 client.unfocused	$darkgray $darkgray $yellow $purple $darkgray
 client.urgent		$red $red $white $red $red
+
+# custom layouts
+exec_always --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
+exec_always --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
+exec_always --no-startup-id i3-msg "workspace 8; append_layout $HOME/.config/i3/workspace-8.json"
