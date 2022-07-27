@@ -42,21 +42,20 @@ markup=none
 # Set to %any to automatically pick (Requires playerctl >=2.1.1)
 [mediaplayer]
 # This picks any player, with vlc as first, and spotify as last choice
-#instance=vlc,%any,spotify
-instance=spotify
+instance=mpv,%any,spotify
 interval=5
 signal=10
 separator=false
 color=#d79921
 
-[volume]
-label=♪ (fix me)
+#[volume]
+#label=♪ (fix me)
 #label=VOL
-interval=once
-signal=10
-STEP=10%
-separator=false
-color=#a89984
+#interval=once
+#signal=10
+#STEP=10%
+#separator=false
+#color=#a89984
 
 # Disk usage
 #
