@@ -4,13 +4,22 @@ hook global BufCreate .* %[
     add-highlighter buffer/ wrap
 ]
 
-add-highlighter global/ show-matching
-
 # disable clippy
 #set-option global ui_options ncurses_assistance=off
+set-option global ui_options terminal_assistant=cat
+
+#  autocomplete with tab
+hook global InsertCompletionShow .* %{
+    map window insert <tab> <c-n>
+    map window insert <s-tab> <c-p>
+}
+hook global InsertCompletionHide .* %{
+    unmap window insert <tab> <c-n>
+    unmap window insert <s-tab> <c-p>
+}
 
 # indentation
-set-option global tabstop	4
+set-option global tabstop	    4
 set-option global indentwidth	4
 
 # tabs to spaces
@@ -41,4 +50,8 @@ eval %sh{kak-lsp --kakoune -s $kak_session}
 hook global WinSetOption filetype=(rust|python|go|javascript|typescript|c|cpp) %{
     lsp-enable-window
 }
+
+# editorconfig
+hook global BufOpenFile .* %{ editorconfig-load }
+hook global BufNewFile .* %{ editorconfig-load }
 
