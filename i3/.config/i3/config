@@ -254,8 +254,8 @@ assign [class="firefox"] 2
 assign [class="TelegramDesktop"] 3
 assign [class="discord"] 3
 assign [class="whatsapp-nativefier-d40211"] 3
-assign [class="Microsoft Teams - Preview"] 3
 assign [class="microsoft teams - preview"] 3
+assign [class="slack"] 3
 assign [class="Steam"] 8
 assign [class="csgo_linux64"] 9
 
