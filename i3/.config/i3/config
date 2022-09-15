@@ -226,7 +226,8 @@ mode "resize" {
 bindsym $sup+r mode "resize"
 
 # don't focus new windows
-no_focus [all]
+#no_focus [all]
+# TODO: add refined rules for better experience with other programs
 
 # steam
 for_window [class="^Steam$" title="Steam - News"] floating enable
@@ -253,6 +254,8 @@ assign [class="firefox"] 2
 assign [class="TelegramDesktop"] 3
 assign [class="discord"] 3
 assign [class="whatsapp-nativefier-d40211"] 3
+assign [class="Microsoft Teams - Preview"] 3
+assign [class="microsoft teams - preview"] 3
 assign [class="Steam"] 8
 assign [class="csgo_linux64"] 9
 
@@ -260,12 +263,14 @@ assign [class="csgo_linux64"] 9
 exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.png"
 
 # autostart applications
-exec_always --no-startup-id i3-msg "workspace 1; exec /usr/bin/urxvt"
-exec_always --no-startup-id i3-msg "workspace 2; exec /usr/bin/chromium"
-exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/telegram-desktop"
-exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/discord"
-exec_always --no-startup-id i3-msg "workspace 3; exec /usr/bin/whatsapp-nativefier"
-exec_always --no-startup-id i3-msg "workspace 8; exec /usr/bin/steam"
+exec --no-startup-id /usr/bin/urxvt
+exec --no-startup-id /usr/bin/chromium
+exec --no-startup-id "test $(date +%u) -lt 6 && teams"
+exec --no-startup-id "test $(date +%u) -lt 6 && slack"
+exec --no-startup-id /usr/bin/telegram-desktop
+exec --no-startup-id /usr/bin/discord
+exec --no-startup-id "test $(date +%u) -gt 5 && /usr/bin/whatsapp-nativefier"
+exec --no-startup-id "test $(date +%u) -gt 5 && /usr/bin/steam"
 
 # assign workspaces to monitors
 workspace 1 output DisplayPort-2
@@ -300,6 +305,6 @@ client.unfocused	$darkgray $darkgray $yellow $purple $darkgray
 client.urgent		$red $red $white $red $red
 
 # custom layouts
-exec_always --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
-exec_always --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
-exec_always --no-startup-id i3-msg "workspace 8; append_layout $HOME/.config/i3/workspace-8.json"
+exec --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
+exec --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
+exec --no-startup-id i3-msg "workspace 8; append_layout $HOME/.config/i3/workspace-8.json"
