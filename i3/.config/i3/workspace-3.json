@@ -1,0 +1,70 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 455,
+       "width": 1076,
+       "x": 2,
+       "y": 732
+    },
+    "marks": [],
+    "name": "WhatsApp",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+          "machine": "^arch$",
+          "title": "^WhatsApp$",
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1863,
+       "width": 1076,
+       "x": 2,
+       "y": 55
+    },
+    "marks": [],
+    "name": "Discord",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+          "class": "^discord$",
+          "instance": "^discord$",
+          "machine": "^arch$",
+          "title": "^Discord$",
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 614,
+       "width": 1076,
+       "x": 2,
+       "y": 1285
+    },
+    "marks": [],
+    "name": "Telegram (4176)",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+          "class": "^TelegramDesktop$",
+          "instance": "^telegram\\-desktop$",
+          "machine": "^arch$",
+       }
+    ],
+    "type": "con"
+}
+

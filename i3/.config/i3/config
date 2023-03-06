@@ -58,15 +58,14 @@ set $sup Mod4
 # use Mouse+$sup to drag floating windows to their wanted position
 floating_modifier $sup
 
-# start Urxvt and attach to a tmux session
-#bindsym $sup+c exec urxvt -e bash -c "tmux -q has-session && exec tmux attach-session -d || exec tmux new-session -n$USER -s$USER@$HOSTNAME"
-bindsym $sup+c exec urxvt
+# start Termite
+bindsym $sup+c exec termite
 
 # kill focused window
 bindsym $sup+x kill
 
-# start dmenu (a program launcher)
-bindsym $sup+d exec --no-startup-id dmenu_run
+# start dmenu in a Bash shell (a program launcher)
+bindsym $sup+d exec --no-startup-id "SHELL=/usr/bin/zsh dmenu_run"
 # start dmenu calculator
 bindsym $sup+m exec --no-startup-id dmenu_run --calc
 # start dmenu search lookup
@@ -254,8 +253,10 @@ assign [class="firefox"] 2
 assign [class="TelegramDesktop"] 3
 assign [class="discord"] 3
 assign [class="whatsapp-nativefier-d40211"] 3
+assign [class="Microsoft Teams - Preview"] 3
 assign [class="microsoft teams - preview"] 3
 assign [class="slack"] 3
+assign [class="Slack"] 3
 assign [class="Steam"] 8
 assign [class="csgo_linux64"] 9
 
@@ -263,14 +264,12 @@ assign [class="csgo_linux64"] 9
 exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.png"
 
 # autostart applications
-exec --no-startup-id /usr/bin/urxvt
+exec --no-startup-id /usr/bin/termite
 exec --no-startup-id /usr/bin/chromium
-exec --no-startup-id "test $(date +%u) -lt 6 && teams"
-exec --no-startup-id "test $(date +%u) -lt 6 && slack"
 exec --no-startup-id /usr/bin/telegram-desktop
 exec --no-startup-id /usr/bin/discord
-exec --no-startup-id "test $(date +%u) -gt 5 && /usr/bin/whatsapp-nativefier"
-exec --no-startup-id "test $(date +%u) -gt 5 && /usr/bin/steam"
+exec --no-startup-id /usr/bin/whatsapp-nativefier
+exec --no-startup-id /usr/bin/steam
 
 # assign workspaces to monitors
 workspace 1 output DisplayPort-2
@@ -307,4 +306,4 @@ client.urgent		$red $red $white $red $red
 # custom layouts
 exec --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
 exec --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
-exec --no-startup-id i3-msg "workspace 8; append_layout $HOME/.config/i3/workspace-8.json"
+exec --no-startup-id "test $(date +%u) -gt 5 && i3-msg 'workspace 8; append_layout $HOME/.config/i3/workspace-8.json'"
