@@ -41,9 +41,27 @@ plug "andreyorst/plug.kak" noload
 
 # plugins
 plug "andreyorst/fzf.kak"
+#plug "andreyorst/kaktree" defer %{
+#    set-option global kaktree_double_click_duration '0.5'
+#    set-option global kaktree_indentation 1
+#    set-option global kaktree_dir_icon_open  '▾ 🗁 '
+#    set-option global kaktree_dir_icon_close '▸ 🗀 '
+#    set-option global kaktree_file_icon      '⠀⠀🖺'
+#} config %{
+#    hook global WinSetOption filetype=kaktree %{
+#        remove-highlighter buffer/numbers
+#        remove-highlighter buffer/matching
+#        remove-highlighter buffer/wrap
+#        remove-highlighter buffer/show-whitespaces
+#    }
+#    kaktree-enable
+#}
 
 # key mappings
 map global normal <c-p> ': fzf-mode<ret>'
+map -docstring "select whole XML object" global object t %{c<lt>([\w.]+)\b[^>]*?(?<lt>!/)>,<lt>/([\w.]+)\b[^>]*?(?<lt>!/)><ret>}
+map global object h 'c<gt>,<lt><ret>' -docstring "select inner XML content"
+map global object o 'c\s,\s<ret>' -docstring "select inbetween the whitespace"
 
 # language server
 eval %sh{kak-lsp --kakoune -s $kak_session}
