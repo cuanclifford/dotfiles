@@ -257,14 +257,20 @@ assign [class="Microsoft Teams - Preview"] 3
 assign [class="microsoft teams - preview"] 3
 assign [class="slack"] 3
 assign [class="Slack"] 3
-assign [class="Steam"] 8
+assign [class="steamwebhelper"] 8
+assign [class="steam"] 8
 assign [class="csgo_linux64"] 9
 
 # wallpaper
-exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.png"
+exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/wallpaper.(png|jpg)"
+
+# custom layouts
+#exec --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
+exec --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
+exec --no-startup-id "test $(date +%u) -gt 5 && i3-msg 'workspace 8; append_layout $HOME/.config/i3/workspace-8.json'"
 
 # autostart applications
-exec --no-startup-id /usr/bin/termite
+exec --no-startup-id i3-msg "workspace 1; exec /usr/bin/termite"
 exec --no-startup-id /usr/bin/chromium
 exec --no-startup-id /usr/bin/telegram-desktop
 exec --no-startup-id /usr/bin/discord
@@ -302,8 +308,3 @@ client.focused		$blue $blue $darkgray $purple $darkgray
 client.focused_inactive	$darkgray $darkgray $yellow $purple $darkgray
 client.unfocused	$darkgray $darkgray $yellow $purple $darkgray
 client.urgent		$red $red $white $red $red
-
-# custom layouts
-exec --no-startup-id i3-msg "workspace 1; append_layout $HOME/.config/i3/workspace-1.json"
-exec --no-startup-id i3-msg "workspace 2; append_layout $HOME/.config/i3/workspace-2.json"
-exec --no-startup-id "test $(date +%u) -gt 5 && i3-msg 'workspace 8; append_layout $HOME/.config/i3/workspace-8.json'"
